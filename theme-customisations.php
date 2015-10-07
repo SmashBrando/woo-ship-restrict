@@ -40,7 +40,7 @@ final class Woo_Ship_Restrict {
 	 * @return void
 	 */
 	public function Woo_Ship_Restrict_css() {
-		wp_enqueue_style( 'custom-css', plugins_url( '/custom/style.css', __FILE__ ) );
+		//wp_enqueue_style( 'custom-css', plugins_url( '/custom/style.css', __FILE__ ) );
 	}
 
 	/**
@@ -48,7 +48,7 @@ final class Woo_Ship_Restrict {
 	 * @return void
 	 */
 	public function Woo_Ship_Restrict_js() {
-		wp_enqueue_script( 'custom-js', plugins_url( '/custom/custom.js', __FILE__ ), array( 'jquery' ) );
+		//wp_enqueue_script( 'custom-js', plugins_url( '/custom/custom.js', __FILE__ ), array( 'jquery' ) );
 	}
 
 } // End Class
