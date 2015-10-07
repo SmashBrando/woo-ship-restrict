@@ -35,7 +35,7 @@ function hide_out_of_state_ground_shipping( $rates, $package ) {
 		}
 	}
 
-	//check if a specific shipping class is in array
+	//debug if a specific shipping class is in array
 	//print_r($shipping_classes);
 
 	//if Shipping Method exists and the State to exclude is not in the respective array and the Shipping class is in the respective array
